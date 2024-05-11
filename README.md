@@ -16,3 +16,4 @@ The Nginx configuration file specifies how Nginx should serve the web applicatio
 
 The Dockerfile is used to define the Docker image for the web application. It starts from an official Nginx base image, copies the index.html and nginx.conf files into the appropriate location in the container, and ensures that the Nginx server is started when the container is run.
 
+ECR Image link- public.ecr.aws/s7f2n3x3/nikita-registry:latest
